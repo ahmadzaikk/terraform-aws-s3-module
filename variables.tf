@@ -94,8 +94,7 @@ variable "prefix" {
 }
 variable "region" {
   type        = string
-  default     = ""
-  description = "Prefix identifying one or more objects to which the rule applies"
+  description = "region"
 }
 variable "noncurrent_version_transition_days" {
   type        = number
